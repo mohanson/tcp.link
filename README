@@ -1,6 +1,10 @@
 TCP traffic forwarding
 ===
 
-```
-tcp.link 127.0.0.1:9944 $REMOTE:9944
-```
+It only does one thing, forwarding local TCP traffic to the remote as if the
+remote server was deployed locally.
+
+usage:
+    tcp.link 127.0.0.1:9944 $REMOTE:9944
+
+simple and useful.
